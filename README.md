@@ -1,4 +1,4 @@
-# EJ2 ng AutoComplete zIndex
+# DropDownList Angular model value binding
 
 Query: Doesn't work with ngModel
 
