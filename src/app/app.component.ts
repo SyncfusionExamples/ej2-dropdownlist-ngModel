@@ -4,7 +4,7 @@ import { DropDownListComponent } from '@syncfusion/ej2-ng-dropdowns';
 @Component({
     selector: 'my-app',
     template: `
-    <ej-dropdownlist id='ddlelement' [dataSource]='data' [(value)]='selectedGame' placeholder='Select a game'></ej-dropdownlist>
+    <ejs-dropdownlist id='ddlelement' [dataSource]='data' [(value)]='selectedGame' placeholder='Select a game'></ejs-dropdownlist>
     <div style='margin-top: 50px'>
         <input type="text" [(ngModel)]="selectedGame" style="width:245px;height:25px" />
      </div>
